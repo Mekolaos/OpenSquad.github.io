@@ -4,6 +4,11 @@ body
     background-image:linear-gradient(to bottom right,#25183a, #cbc5d6);
 }
 
+@font-face {
+    font-family: betterfont;
+    src: url(../resources/fonts/Lato2OFL/Lato-Medium.ttf)
+}
+
 
 /*      MENU        */
 #navbarmain
@@ -11,11 +16,11 @@ body
     margin-bottom: 50px;
     position:fixed;
     height: 10px;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color:black;
     z-index: 99;
     width:100%;
-    padding:30px 10px;
+    padding:10px 10px 30px 10px;
     transition:0.3s;
     top:0;
     overflow: hidden;
@@ -33,13 +38,18 @@ body
     color:#352351;
     margin:10px;
 }
-
+.deify {
+    font-family: betterfont;
+}
+.margeSimp {
+    margin-top: 50px;
+}
 
 /*              GENERAL             */
 .section
 {
-    margin-top:100px;
-    margin-bottom: 100px;
+    margin-top:50px;
+    margin-bottom: 80px;
     height:100%;
     min-height: 100%;
     width:100%;
@@ -59,6 +69,14 @@ body
 
 
 /*       OFFRE                   */
+
+.halazoun
+{
+    height: 100%;
+    width: 100%;
+
+}
+
 #img-offre
 {
     background-image:url("../resources/images/coding.jpg");
@@ -68,18 +86,18 @@ body
 
 .content-section
 {
-    padding:20px;
+    padding:10px;
     opacity: 0.8;
     width: 30%;
     background-color: white;
     color:black;
 }
 
-#section2 img
+/* #section2 img
 {
     height: 530px;
     width: 50%;
-}
+} */
 
 #section2{
     padding:0px;
@@ -104,17 +122,17 @@ body
 
 
 /*      EQUIPE                   */
- #equipe
+ /* #equipe
  {
      text-align: center;
      color:white;
      font-size:50px;
- }
+ } */
 #section4{
     width:100%;
     display: flex;
     margin:0px;
-    margin-left: -40px;
+    margin-left: 2px;
     padding-right: -340px;
     padding:-100px;
 }
@@ -136,6 +154,7 @@ body
 }
 #profile2{
     background-image: url('../resources/images/merouane.jpg');
+
 }
 #profile3{
     background-image: url('../resources/images/samy.jpg');
@@ -171,14 +190,16 @@ body
 #section5 h2
 {
     text-align: center;
-    color: white;
-    font-size: 40px;
+    margin-bottom: 30px;
+    /* color: white;
+    font-size: 40px; */
 }
 #social
 {
     justify-content: space-between;
     display:flex;
     flex-direction: line;
+    margin-bottom: 30px;
 }
 
 
